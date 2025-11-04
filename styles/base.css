@@ -1,0 +1,152 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #1d4d72;
+  color: white;
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  padding: 1.5rem 0 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#course-title a {
+  color: white;
+  text-decoration: none;
+}
+
+#course-title a span {
+  color: #f9d71c;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #3b3b3b;
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #1d4d72;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  background-color: #1d4d72;
+  color: white;
+  padding: 0.6rem;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 1.2rem;
+}
+
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-photo {
+  flex: 1;
+  text-align: center;
+}
+
+.about-photo img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flag {
+  width: 120px;
+  margin-top: 1rem;
+  display: block;
+}
+
+
+.resources ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+.resources li {
+  margin-bottom: 0.5rem;
+}
+
+.resources a {
+  color: #1d4d72;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.resources a:hover {
+  color: #f9d71c;
+}
+
+footer {
+  background-color: #1d4d72;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+}
+
+#lastModified {
+  color: #f9d71c;
+  font-size: 0.9rem;
+}

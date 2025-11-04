@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, HTML, CSS, JavaScript" />
+  <meta name="author" content="Leandro" />
+  <title>WDD 131 - Dynamic Web Fundamentals - Leandro Mancuso</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <script src="getdates.js" defer></script>
 </head>
 <body>
-    <h1>Test1</h1>
-    
+
+  <header>
+    <span id="course-title">
+      <a>WDD 131 - Dynamic Web Fundamentals - <span>Leandro Mancuso</span></a>
+    </span>
+    <nav>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/leandro-mancuso-68321a362/">LinkedIn</a></li>
+        <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=spa&id=p10#p10">Scripture</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Me -->
+    <section class="card about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-text">
+          <p>
+            My name is Leandro and I live in Mendoza, Argentina. I really like web development,
+            I am currently working at an auto parts warehouse. In my free time, I like to exercise.
+          </p>
+          <h3>Mendoza, Argentina</h3>
+          <hr />
+          <p>
+            Mendoza is a province in western Argentina, known for its vineyards, mountains, and natural landscapes.
+            It is an ideal place for tourism, hiking, and wine production. Its beauty and tranquility inspire me.
+          </p>
+          <img class="flag" src="images/mendozaflag.jpg" alt="Mendoza Flag" />
+        </div>
+        <div class="about-photo">
+          <img src="images/profile.jpg" alt="My Profile Picture" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Web Dev Resources -->
+    <section class="card resources">
+      <h2>Web Dev Resources</h2>
+      <ul>
+        <li><a href="https://dev.to/">Dev.to Community</a></li>
+        <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+        <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+        <li><a href="https://www.udemy.com/">Udemy</a></li>
+        <li><a href="https://placehold.co/">Image Placeholder</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="currentyear">2025</span> | Leandro Mancuso | Mendoza, Argentina
+    </p>
+    <p id="lastModified">Last modification: 03/11/2025</p>
+  </footer>
+
 </body>
 </html>
