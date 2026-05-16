@@ -6,7 +6,7 @@
     <meta name="description" content=" dynamic web fundamentals course for week 1, leandro mancuso's work for wdd 131">
     <meta name="author" content="Leandro Mancuso">
     <title>WDD 131 - Dynamic Web Fundamentals - Leandro Mancuso</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu&display=swap" rel="stylesheet">
@@ -15,20 +15,19 @@
 <body>
     <header>
         <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
-        <div class="flex-box-one">
+        <nav class="flex-box-one">
             <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
             <a href="https://byupw.instructure.com" target="_blank">Canvas</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
             <a href="#" target="_blank">Final Project</a>
-            </div>
+        </nav>
     </header>
     
     <main>
         <h1>Leandro Mancuso</h1>
         
-
-        <section class="biggest-box">
-            <div class="card-one">
+        <div class="biggest-box">
+            <section class="card">
                 <div class="grid-container-one">
                     <h2>About Me</h2>
                     <p>My name is Leandro and I am a passionate web developer. I was born in Mendoza, Argentina, and have been interested in technology since a young age. I like to create innovative and user-friendly websites. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos minima pariatur asperiores voluptatem esse assumenda consectetur! Dicta laboriosam eveniet, dolore laborum necessitatibus accusantium mollitia id, minus laudantium, voluptatum similique?</p>
@@ -40,9 +39,9 @@
                     <img src="images/mendoza-flag.jpg" alt="Mendoza Flag">
                     <p>Mendoza is the capital city of the province of the same name in Argentina. It is located in the western part of the country and is known for its beautiful landscapes and rich cultural heritage.</p>
                 </div>
-            </div>
+            </section>
 
-            <div class="card-two">
+            <section class="card">
                 <h2>Web Dev Resources</h2>
                 <a href="#">Dev to Comunnity</a>
                 <a href="#">Smashing Magazine</a>
@@ -50,21 +49,13 @@
                 <a href="#">W3 Schools</a>
                 <a href="#">Udemy</a>
                 <a href="#">Lorem Picsum Image Placeholder</a>
-            </div>
-        </section>
-
-
-        <footer>
-        <p>&copy;<span id="currentYear"></span> | Leandro Mancuso | Mendoza, Argentina</p>
-        <p>Última modificación: <span id="lastModified"></span></p>
-        </footer>
-
-
-
+            </section>
+        </div>
     </main>
 
-
-
-    
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Leandro Mancuso | Mendoza, Argentina</p>
+        <p>Última modificación: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
