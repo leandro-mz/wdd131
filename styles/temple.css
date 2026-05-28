@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1D4D72;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D4D72;
+    gap: 15px;
+    position: relative;
+}
+
+#menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    
+}
+
+.nav-menu {
+    display: none;
+    width: 100%;
+}
+
+.nav-menu.open {
+    display: block; 
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: column; 
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color: #163A5B;
+    color: white;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.photo {
+    margin: 0; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo figcaption {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+footer {
+    background-color: #1D4D72;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
